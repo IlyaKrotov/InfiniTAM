@@ -67,6 +67,7 @@ std::string ImageListPathGenerator::getDepthImagePath(size_t currentFrameNo) con
 
 size_t ImageListPathGenerator::imageCount() const
 {
+    printf("number of images: %d", rgbImagePaths.size() / 2);
 	return rgbImagePaths.size() / 2;
 }
 
