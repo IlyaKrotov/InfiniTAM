@@ -67,7 +67,7 @@ std::string ImageListPathGenerator::getDepthImagePath(size_t currentFrameNo) con
 
 size_t ImageListPathGenerator::imageCount() const
 {
-	return rgbImagePaths.size();
+	return rgbImagePaths.size() / 2;
 }
 
 template <typename PathGenerator>
